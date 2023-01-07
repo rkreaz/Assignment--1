@@ -3,6 +3,45 @@
     margin: 0;
     padding: 0;
 }
+
+.menu_area {
+    background-color: hsla(345, 91%, 34%, 0.834) ;
+    text-align: center;
+  }
+  .menu_titel {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+  }
+  .menu_area li {
+    width: 100px;
+    margin: 6px;
+    padding: 10px;
+    font-size: x-large;
+  }
+  .menu_area ul li a {
+    text-decoration: none;
+    color: hsla(0, 0%, 100%, 0.588);
+  }
+  .menu_area ul li:hover {
+    background: rgb(134, 158, 87);
+    border-radius: 8%;
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 .header-area {
 	background-image: url('../images/banner/banner3.png');
 	text-align: right;
